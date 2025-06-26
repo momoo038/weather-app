@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="scripts/main.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="header">
+        <div class="icon-title">
+          <img
+            src="images/cloud_32dp_1E90FF_FILL0_wght400_GRAD0_opsz40.svg"
+            alt=""
+          />
+          <h1>Weather App</h1>
+        </div>
+        <div class="tempSwitch">F°</div>
+      </div>
+      <div class="searchContainer">
+        <div class="searchBar">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter city name..."
+          />
+          <button id="searchButton">Search</button>
+        </div>
+        <span class="errorSpan"></span>
+      </div>
+      <div class="toggleWeatherVisibility">
+        <div class="weatherContainer">
+          <div class="weatherCard">
+            <img src="" alt="" class="weatherIcon" />
+            <p class="temperature"></p>
+            <p class="description"></p>
+            <div class="weatherCardLocation">
+              <img src="images/location.svg" alt="" />
+              <p class="city"></p>
+            </div>
+          </div>
+        </div>
+        <div class="weatherFooterVisibility">
+          <div class="weatherFooter">
+            <div class="weatherMisc">
+              <div class="humidity">
+                <img src="images/misc/humidity_low.svg" alt="" />
+                <p class="humidity-num"></p>
+              </div>
+              <div class="wind">
+                <img src="images/misc/wind.svg" alt="" />
+                <p class="wind-num"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
