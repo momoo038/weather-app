@@ -1,5 +1,3 @@
-// scripts/geolocation-api.js
-
 export function getUserLocation() {
   return new Promise((resolve, reject) => {
     if (!navigator.geolocation) {
