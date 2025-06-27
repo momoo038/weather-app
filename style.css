@@ -261,3 +261,30 @@ img {
   color: #666;
   margin: 5px 0;
 }
+
+@media (max-width: 480px) {
+  .tips {
+    display: none;
+  }
+
+  body {
+    background-color: #fff;
+    display: block;
+  }
+
+  .mainContainer {
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .humidity {
+    padding-left: 25px;
+  }
+
+  .wind {
+    padding-right: 25px;
+  }
+}
